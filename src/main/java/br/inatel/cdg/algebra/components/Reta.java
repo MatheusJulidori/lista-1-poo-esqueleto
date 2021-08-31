@@ -2,8 +2,8 @@ package br.inatel.cdg.algebra.components;
 
 public class Reta {
 
-    private Ponto p1;
-    private Ponto p2;
+    private Ponto p1 = new Ponto();
+    private Ponto p2 = new Ponto();
 
 
     public void setPoints(double p1x, double p1y, double p2x, double p2y){
